@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Estimador de Obra — Rafael Rodrigues, Engenheiro Civil. CUB · NBR 12721 · SINAPI · TCPO." />
+    <meta name="author" content="Rafael Rodrigues — Engenheiro Civil" />
+
+    <!-- PWA / Mobile -->
+    <meta name="theme-color" content="#d4a843" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Estimador de Obra" />
+
+    <!-- Open Graph (compartilhamento no WhatsApp / LinkedIn) -->
+    <meta property="og:title" content="Estimador de Obra — Rafael Rodrigues" />
+    <meta property="og:description" content="Estimativa rápida e profissional de obra. CUB por estado · 15 etapas · Quantitativos reais." />
+    <meta property="og:type" content="website" />
+
+    <title>Estimador de Obra | Rafael Rodrigues — Eng. Civil</title>
+
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background: #05080e; font-family: 'Palatino Linotype', 'Georgia', serif; }
+      #root { min-height: 100vh; }
+
+      /* scrollbar dark */
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #0a1120; }
+      ::-webkit-scrollbar-thumb { background: #1c2e47; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #253d5c; }
+
+      /* número input sem setas */
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+      input[type=number] { -moz-appearance: textfield; }
+
+      /* seleção de texto */
+      ::selection { background: #d4a843; color: #05080e; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
